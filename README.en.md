@@ -28,6 +28,17 @@ The control plane and the data plane are **fully decoupled** — they never call
 
 ---
 
+## 🎬 Demos
+
+| What you'll see | Video |
+|---|---|
+| **Data plane** · One natural-language sentence drives three endpoint devices in sequence — 36 s | [▶ Watch](https://www.bilibili.com/video/BV18Zx86KEDT/) |
+| **Control plane** · Send a request from your phone; the result lands on the local Windows machine, with task cards (allow / deny / live progress / context budget) and `/stop` | [▶ Watch](https://www.bilibili.com/video/BV1nY4w6kEiy) |
+
+> 🌐 Video language: Chinese.
+
+---
+
 ## The thesis
 
 **AI is trapped in the digital world.** Model output is tokens, not actions.
