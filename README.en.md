@@ -34,8 +34,11 @@ The control plane and the data plane are **fully decoupled** — they never call
 |---|---|
 | **Data plane** · One natural-language sentence drives three endpoint devices in sequence — 36 s | [▶ Watch](https://www.bilibili.com/video/BV18Zx86KEDT/) |
 | **Control plane** · Send a request from your phone; the result lands on the local Windows machine, with task cards (allow / deny / live progress / context budget) and `/stop` | [▶ Watch](https://www.bilibili.com/video/BV1nY4w6kEiy) |
+| **Graceful degradation** · Circuit-breaker probe → direct fallback → self-recovery, with the device never noticing | [▶ Watch](https://www.bilibili.com/video/BV1UDh169E3s) |
 
-> 🌐 Video language: Chinese.
+🖼️ **Screenshot gallery** · [Multi-device control receipts / local Windows work / edge alerts →](docs/showcase/README.md)
+
+> 🌐 Videos and screenshot captions are in Chinese (the primary audience).
 
 ---
 
