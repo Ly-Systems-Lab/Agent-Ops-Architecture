@@ -54,9 +54,9 @@ The trio is **modular**: each plane stands alone, because the pain lives in a di
 
 **Why each plane stands alone:**
 
-- Only want “command my computer (or a Raspberry Pi) from my phone”? Install the **control plane**; not a single device required.
-- Only want “an agent that commands devices”? Install the **data plane**; no WeCom required — any MQTT client with its own credentials can be the command source.
-- Want both? They **never call each other**; they only share one set of conventions.
+- 📱 Only want “command my computer (or a Raspberry Pi) from my phone”? Install the **control plane**; not a single device required.
+- 🤖 Only want “an agent that commands devices”? Install the **data plane**; no WeCom required — any MQTT client with its own credentials can be the command source.
+- 🌐 Want both? They **never call each other**; they only share one set of conventions.
 
 > On the access barrier: availability of official clients under some network and account environments is a problem *outside* the capability itself — **we do not attempt to solve it**.
 > The control plane does not reimplement a model client; it only puts the one already running on your machine behind a chat entry (Convention 4: use what the official provides).
@@ -89,9 +89,9 @@ Our answer is to **decouple them**:
 
 Three design principles:
 
-1. **Central brain, distributed bodies.** Compute is scarce; devices are cheap.
-2. **Narrow channel, hard contract.** Frame caps, idempotent commands, cooldowns, honest timeouts — because physical actions cannot be rolled back.
-3. **Graceful degradation, edge autonomy.** When the brain goes down, devices must keep doing what they already know how to do. **Continuity matters more than intelligence.**
+1. 🧠 **Central brain, distributed bodies.** Compute is scarce; devices are cheap.
+2. 📏 **Narrow channel, hard contract.** Frame caps, idempotent commands, cooldowns, honest timeouts — because physical actions cannot be rolled back.
+3. 🛡️ **Graceful degradation, edge autonomy.** When the brain goes down, devices must keep doing what they already know how to do. **Continuity matters more than intelligence.**
 
 The acceptance test is one sentence: **unplug the network — can the device still do the few things it already knows?**
 
@@ -106,6 +106,11 @@ The acceptance test is one sentence: **unplug the network — can the device sti
 | [docs/embodied-ai.md](docs/embodied-ai.md) | Crossing the Digital and Physical Boundary — the top-level design |
 | [docs/architecture.md](docs/architecture.md) | Panorama: cloud/edge/end, star topology, role table, known limits |
 | [docs/conventions.md](docs/conventions.md) | Five conventions and the interaction baseline |
+
+> 📄 **Someone has already built one** → [external integration reports](https://github.com/Ly-Systems-Lab/Agent-Ops-WeCom-Bridge/blob/main/docs/field-reports/README.md):
+> OpenCode and Codex, with no knowledge of each other, each started from this same documentation
+> and filled in the same six runner adapter points — each with its own answer.
+> **"The conventions are portable" is not our claim; it is what they independently converged on.**
 
 ---
 
