@@ -104,6 +104,7 @@ The acceptance test is one sentence: **unplug the network — can the device sti
 | [docs/why.md](docs/why.md) | Why this ecosystem exists — six mismatches of the current era |
 | [docs/manifesto.md](docs/manifesto.md) | The Collaboration Manifesto |
 | [docs/embodied-ai.md](docs/embodied-ai.md) | Crossing the Digital and Physical Boundary — the top-level design |
+| [docs/agent-native-apps.md](docs/agent-native-apps.md) | Usable by people, usable by agents — four falsifiable criteria |
 | [docs/architecture.md](docs/architecture.md) | Panorama: cloud/edge/end, star topology, role table, known limits |
 | [docs/conventions.md](docs/conventions.md) | Five conventions and the interaction baseline |
 
