@@ -28,12 +28,39 @@ The control plane and the data plane are **fully decoupled** — they never call
 
 ---
 
+## 🧩 Everything is a plug-in
+
+**The core knows no vendor.** Platforms, agents and devices are plugged in, not hard-wired — and so is the model.
+
+| Axis | What a "plug-in" is | Verified |
+|---|---|---|
+| **Platform** · human ⇄ agent entry | one platform adapter directory | WeCom / Feishu / Slack; DingTalk's official CLI as an execution surface |
+| **Agent** · brain | six runner adapter points | Claude Code / Codex / OpenCode / DeepSeek Harness |
+| **Device** · body | one adapter directory + one service unit + one ACL role | TV (HTTP) / panel (MQTT) / robot (async receipts) |
+| **Model** · engine inside the brain | one config table + one switch | local ↔ cloud, switched from chat |
+
+The test is one sentence: **to connect a new X, add one directory (or one config line); the core does not change.**
+
+---
+
+## 🌱 Our niche: an ecosystem inside the ecosystem
+
+We build no new IM, no foundation model, no device and no protocol.
+We build the **socket** that lets the existing ones find each other — so that WeCom, Feishu, Slack
+and physical devices can all interoperate on a thin layer of gates and audit trails that stays ours.
+
+> The four "what we don't build" decisions, with their costs, are in [docs/why.md](docs/why.md) (Chinese).
+
+---
+
 ## 🎬 Demos
 
 | What you'll see | Video |
 |---|---|
 | **Data plane** · One natural-language sentence drives three endpoint devices in sequence — 36 s | [▶ Watch](https://www.bilibili.com/video/BV18Zx86KEDT/) |
 | **Control plane** · Send a request from your phone; the result lands on the local Windows machine, with task cards (allow / deny / live progress / context budget) and `/stop` | [▶ Watch](https://www.bilibili.com/video/BV1nY4w6kEiy) |
+| **Control plane** · Multiple agents in one group (Claude Code / Codex / OpenCode / DSH …) plus a model-only Q&A seat (DeepSeek), across WeCom and Feishu | [▶ Watch](https://www.bilibili.com/video/BV1LBW167Epz) |
+| **Control plane** · Hot-switching between three platforms (WeCom / Feishu / Slack) — another door, the same agent | [▶ Watch](https://www.bilibili.com/video/BV1U7WB6mEVD) |
 | **Graceful degradation** · Circuit-breaker probe → direct fallback → self-recovery, with the device never noticing | [▶ Watch](https://www.bilibili.com/video/BV1UDh169E3s) |
 
 🖼️ **Screenshot gallery** · [Multi-device control receipts / local Windows work / edge alerts →](docs/showcase/README.md)
@@ -109,9 +136,10 @@ The acceptance test is one sentence: **unplug the network — can the device sti
 | [docs/conventions.md](docs/conventions.md) | Five conventions and the interaction baseline |
 
 > 📄 **Someone has already built one** → [external integration reports](https://github.com/Ly-Systems-Lab/Agent-Ops-WeCom-Bridge/blob/main/docs/field-reports/README.md):
-> OpenCode and Codex, with no knowledge of each other, each started from this same documentation
-> and filled in the same six runner adapter points — each with its own answer.
+> OpenCode, Codex and DeepSeek Harness — with no knowledge of each other — each started from this same documentation
+> and filled in the same six runner adapter points, each with its own answer.
 > **"The conventions are portable" is not our claim; it is what they independently converged on.**
+> A viewer also built their own and posted the receipt in the comments — [screenshot 04](docs/showcase/README.md).
 
 ---
 
@@ -135,6 +163,9 @@ Stated plainly, so the claim and the evidence are on the same page:
 Documentation is licensed under **[CC BY 4.0](LICENSE)** — reuse, quote and adapt freely, **with attribution**.
 
 Attribution: **Agent-Ops-Architecture · Ly-Systems-Lab** (with a link back to this repository).
+
+**No code moat, by choice.** Connecting the whole digital and physical world is not a one-person job —
+so the value we keep is not a piece of implementation, but **how many people use these conventions, and how deeply**.
 
 ---
 
