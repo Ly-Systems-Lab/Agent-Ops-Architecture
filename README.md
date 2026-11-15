@@ -30,6 +30,9 @@
 
 🖼️ **实拍图集** · [多设备控制回显 / Windows 本地工作 / 端侧预警推送 / 读者自己搭的一份 →](docs/showcase/README.md)
 
+💬 **真实用户反馈区** · [照着公开的这套搭起来的人，自己交上来的作业 →](https://github.com/Ly-Systems-Lab/Agent-Ops-WeCom-Bridge/blob/main/docs/feedback/README.md)
+（目前都是控制面的回执；数据面与物理设备联动的反馈还没有）
+
 ---
 
 ## 三件套
@@ -143,8 +146,6 @@ flowchart LR
 - 📄 **三个 Agent 各自只拿同一份文档从零接入**，互不知情，却把同一套「6 个适配点」
   填成了各自的答案（[外部接入记录](https://github.com/Ly-Systems-Lab/Agent-Ops-WeCom-Bridge/blob/main/docs/field-reports/README.md)）。
   其中一个（DeepSeek Harness）接入之后**又把新版收回去了一次**，自己那半边一处没丢。
-- 🧑 **一位观众照着我们公开的这套搭了一份**，回到评论区「交作业」——
-  [截图见实拍图集 04](docs/showcase/README.md)。
 
 > 判据：**把文档交给一个没读过我们代码的 Agent，它能不能在自己的技术栈上跑通那五条约定？**
 > 能，这套东西就是"可执行的文档"；不能，说明写下来的仍然只是给人看的说明。

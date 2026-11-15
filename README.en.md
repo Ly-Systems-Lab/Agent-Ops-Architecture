@@ -65,6 +65,9 @@ and physical devices can all interoperate on a thin layer of gates and audit tra
 
 🖼️ **Screenshot gallery** · [Multi-device control receipts / local Windows work / edge alerts →](docs/showcase/README.md)
 
+💬 **Real user feedback** · [People who built it from the public docs and posted their receipts →](https://github.com/Ly-Systems-Lab/Agent-Ops-WeCom-Bridge/blob/main/docs/feedback/README.md)
+(control plane only for now — nothing yet from the data plane or physical devices)
+
 > 🌐 Videos and screenshot captions are in Chinese (the primary audience).
 
 ---
@@ -139,7 +142,6 @@ The acceptance test is one sentence: **unplug the network — can the device sti
 > OpenCode, Codex and DeepSeek Harness — with no knowledge of each other — each started from this same documentation
 > and filled in the same six runner adapter points, each with its own answer.
 > **"The conventions are portable" is not our claim; it is what they independently converged on.**
-> A viewer also built their own and posted the receipt in the comments — [screenshot 04](docs/showcase/README.md).
 
 ---
 
