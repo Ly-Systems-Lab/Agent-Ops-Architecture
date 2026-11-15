@@ -66,7 +66,7 @@ and physical devices can all interoperate on a thin layer of gates and audit tra
 🖼️ **Screenshot gallery** · [Multi-device control receipts / local Windows work / edge alerts →](docs/showcase/README.md)
 
 💬 **Real user feedback** · [People who built it from the public docs and posted their receipts →](https://github.com/Ly-Systems-Lab/Agent-Ops-WeCom-Bridge/blob/main/docs/feedback/README.md)
-(control plane only for now — nothing yet from the data plane or physical devices)
+(control-plane receipts so far; the data-plane slot is reserved — if you are building a body for your AI, we'd love to hear from you!)
 
 > 🌐 Videos and screenshot captions are in Chinese (the primary audience).
 

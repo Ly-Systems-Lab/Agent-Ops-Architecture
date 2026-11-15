@@ -28,10 +28,10 @@
 | **控制面** · 一个群里的多个 Agent（Claude Code / Codex / OpenCode / DSH …），外加一个纯模型答疑位（DeepSeek），跨企微与飞书 | [▶ 观看](https://www.bilibili.com/video/BV1LBW167Epz) |
 | **控制面** · 三平台互相热切换（企微 / 飞书 / Slack）：换个门进来，还是同一个 Agent | [▶ 观看](https://www.bilibili.com/video/BV1U7WB6mEVD) |
 
-🖼️ **实拍图集** · [多设备控制回显 / Windows 本地工作 / 端侧预警推送 / 读者自己搭的一份 →](docs/showcase/README.md)
+🖼️ **实拍图集** · [多设备控制回显 / Windows 本地工作 / 端侧预警推送 →](docs/showcase/README.md)
 
 💬 **真实用户反馈区** · [照着公开的这套搭起来的人，自己交上来的作业 →](https://github.com/Ly-Systems-Lab/Agent-Ops-WeCom-Bridge/blob/main/docs/feedback/README.md)
-（目前都是控制面的回执；数据面与物理设备联动的反馈还没有）
+（目前是控制面的回执；数据面与物理设备联动的反馈区正虚位以待，有想给自己AI造身体的用户，欢迎你们反馈！）
 
 ---
 
